@@ -15,6 +15,7 @@ void setup()
   digitalWrite(keyPin, HIGH);
   delay (500) ;              // Espera antes de encender el modulo
   Serial.begin(9600);
+  Serial.println("Bluetooth_1");
   Serial.println("Levantando el modulo HC-06");
   digitalWrite (vccPin, HIGH);    //Enciende el modulo
   Serial.println("Esperando comandos AT:");
