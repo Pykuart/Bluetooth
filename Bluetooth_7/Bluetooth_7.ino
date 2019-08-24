@@ -5,7 +5,7 @@ SoftwareSerial BT1(A0, A1); // RX, TX recorder que se cruzan
 void setup()
 {
   Serial.begin(9600);
-  Serial.println("Bluetooth_6");
+  Serial.println("Bluetooth_7");
   BT1.begin(9600);
 }
 
